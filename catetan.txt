@@ -1,0 +1,81 @@
+Ibu::create(
+
+    [
+        'name' => 'Suryati',
+        'NIK' => '0239423012',
+        'tanggal_lahir' => '1993-06-02',
+        'alamat' => 'Jln Jln',
+        'jumlah_anak' => '2',
+        'nama_suami' => 'Kudus'
+    ]
+);
+Ibu::create([
+    'name' => 'Sukijan',
+    'NIK' => '148293302930',
+    'tanggal_lahir' => '1989-02-13',
+    'alamat' => 'Jln. Rumah Angker no 14',
+    'jumlah_anak' => '1',
+    'nama_suami' => 'Aep'
+]);
+Ibu::create([
+    'name' => 'Murtia',
+    'NIK' => '148293383494',
+    'tanggal_lahir' => '1989-02-13',
+    'alamat' => 'Jln. Rumah Biasa no 14',
+    'jumlah_anak' => '1',
+    'nama_suami' => 'Kudus'
+]);
+Ibu::create([
+    'name' => 'Entis',
+    'NIK' => '14829332394',
+    'tanggal_lahir' => '1989-02-13',
+    'alamat' => 'Jln. Biasa no 14',
+    'jumlah_anak' => '2',
+
+]);
+
+
+Anak::create(
+    [
+        'nama' => 'Sule',
+        'nik_ibu' => '0239423012',
+        'bb_lahir' => '3.2',
+        'tanggal_lahir' => '2022-02-13',
+        'jenis_kelamin' => 'Laki - laki',
+        'anak_ke' => '1',        
+        'tempat_lahir' => 'Bandung'
+    ]
+);
+
+Anak::create([
+    'nama' => 'Andre',
+    'nik_ibu' => '0239423012',
+    'bb_lahir' => '3.2',
+    'tanggal_lahir' => '2023-02-13',
+    'jenis_kelamin' => 'Laki - laki',
+    'anak_ke' => '2',    
+    'tempat_lahir' => 'Bandung'
+]);
+
+Anak::create([
+    'nama' => 'Ajis',
+    'nik_ibu' => '148293302930',
+    'bb_lahir' => '3.2',
+    'tanggal_lahir' => '2022-01-13',
+    'jenis_kelamin' => 'Laki - laki',
+    'anak_ke' => '1',    
+    'tempat_lahir' => 'Jakarta'
+]);
+
+Anak::create(
+    [
+        'nama' => 'Gia',
+        'nik_ibu' => '148293383494',
+        'bb_lahir' => '3.2',
+        'tanggal_lahir' => '2022-02-13',
+        'jenis_kelamin' => 'Perempuan',
+        'anak_ke' => '1',        
+        'tempat_lahir' => 'Bandung'
+    ]
+);
+

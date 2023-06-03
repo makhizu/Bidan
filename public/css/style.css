@@ -1,0 +1,83 @@
+/* -------------------------------------HOME PAGE---------------------------------------- */
+.home-page {
+    /* tag <body> */
+    margin: 0;
+    height: 100%;
+}
+
+.full-height {
+    margin: 0;
+    height: 100vh;
+    /* bungkus awal */
+}
+
+.sidebar {
+    /* background-color: white; */
+    background-color: #E63165;
+    width: 130px;
+    height: 100%;
+    overflow: auto;
+}
+
+.active {
+    background-color: #2F5296;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 50px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* scroll bar */
+
+.main-content {
+    background-color: antiquewhite;
+    width: 100%;
+    /* height: 100%; */
+}
+
+.logo {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+/* .navigasi:hover {
+     background-color: #2F5296;
+    background-color: black;
+}*/
+.navigasi:hover,
+.submenu .dropicon .drop:hover {
+    background-color: #2F5296;
+}
+
+.submenu .dropicon .drop {
+    background-color: white;
+}
+
+.submenu .dropicon {
+    color: #E63165;
+}
+
+.submenu .dropicon:hover {
+    color: white;
+}
+
+.list-item .navigasi .description {
+    color: white;
+}

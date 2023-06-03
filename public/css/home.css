@@ -1,0 +1,125 @@
+/* -------------------------------------HOME PAGE---------------------------------------- */
+.home-page {
+    /* tag <body> */
+    margin: 0;
+    height: 100%;
+}
+
+.full-height {
+    margin: 0;
+    height: 100vh;
+    /* bungkus awal */
+}
+
+.sidebar {
+    /* background-color: white; */
+    background-color: #E63165;
+    width: 130px;
+    height: 100%;
+    overflow: auto;
+    padding-bottom: 30px;
+}
+
+
+
+.active {
+    background-color: #2F5296;
+}
+
+/* scroll bar */
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* scroll bar */
+
+.main-content {
+    background-color: antiquewhite;
+    width: 100%;
+    overflow: auto;
+    /* height: 100%; */
+}
+
+.logo {
+    margin-top: 34px;
+    margin-bottom: 34px;
+}
+
+/* .navigasi:hover {
+     background-color: #2F5296;
+    background-color: black;
+}*/
+.navigasi:hover,
+.submenu .dropicon .drop:hover {
+    background-color: #2F5296;
+}
+
+.submenu .dropicon .drop {
+    background-color: white;
+}
+
+.submenu .dropicon {
+    color: #E63165;
+}
+
+.submenu .dropicon:hover {
+    color: white;
+}
+
+.list-item .navigasi .description {
+    color: white;
+}
+
+/* selected menu */
+.menu-selected {
+    background-color: #2F5296;
+}
+
+/* end selected menu */
+
+
+.description {
+    font-size: 15px;
+}
+
+.card-box {
+    width: 350px;
+    height: 350px;
+    border: 10px solid black;
+}
+
+/* 
+.card {
+    height: 50px;
+    width: 50px;
+} */
+
+
+.kartu {
+    background-color: white;
+}
+
+.navigasi:focus {
+    background-color: #2F5296;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
